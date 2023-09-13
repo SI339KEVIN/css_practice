@@ -26,8 +26,9 @@ p {
 
 img {
     width: 250px;
-    text-align: center;
     border: 10px dashed #FFFFFF;
+    display: block;
+    margin: auto;
 }
 
 div {
@@ -48,6 +49,9 @@ div {
     margin-left: 50px;
     border-bottom: 2px;
     border-left: 5px;
+    border-top: 0px;
+    border-right: 0px;
+    border-style: solid;
 }
 
 .blue {
@@ -56,6 +60,9 @@ div {
     margin-right: 50px;
     border-right: 5px;
     border-top: 2px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-style: solid;
 }
 
 .blue > h2 {
@@ -70,20 +77,26 @@ div {
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
+    border-style: solid;
     border-bottom: 2px;
     border-left: 5px;
+    border-right: 0px;
+    border-top: 0px;
 }
 
-.yellow > h2, .yellow > p {
+.yellow > p {
     color: #707070;
 }
 
 .green {
-    background-color: #00EB00;
+    background-color: #008500;
     text-align: left;
     margin-right: 50px;
+    border-style: solid;
     border-right: 5px;
     border-top: 2px;
+    border-bottom: 0px;
+    border-left: 0px;
 }
 
 footer {
@@ -97,6 +110,7 @@ footer > p {
     padding-top: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
+    padding-left: 0px;
 }
 
 
